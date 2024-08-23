@@ -1,0 +1,25 @@
+#container1 {
+    background-color:aqua;
+    width: 80%px;
+    height: 300px;
+    display: flex;
+        flex-direction:row;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+.box {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+
+.test{
+    align-self: flex-end;
+}
+
+.ml-auto{
+    margin: 0 0 0 auto;
+}
