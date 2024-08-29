@@ -1,0 +1,120 @@
+#page {
+    background: antiquewhite;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 80px;
+    background: rgb(22, 22, 22);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 40px;
+    width: 150px;
+    background: aquamarine;
+    padding: 10px;
+}
+
+#menu{
+    height: 40px;
+    width: 350px;
+    background: rgb(28, 104, 79);
+    padding: 10px;
+}
+
+.section {
+    height: 350px;
+    background: rgb(167, 167, 167);
+    padding: 10px;
+    border-bottom: 1px rgb(63, 63, 63) solid;
+    display: flex;
+    align-items: center;
+}
+
+.s1{
+    gap: 30px;
+    justify-content: center;
+}
+
+.s2, .s4{
+    justify-content: space-around;
+}
+
+.s2 div, .s4 > div{
+    width: 225px;
+    height: 250px;
+    background: rgb(27, 102, 83);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s4 div div{
+    width: 225px;
+    height: 50px;
+    background: rgb(207, 216, 86);
+}
+
+#end{
+    flex-direction: column-reverse;
+}
+
+
+.s3{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s3 > div{
+    display: flex;
+    gap: 50px;
+
+}
+
+#container1{
+    background: rgb(50, 58, 133);
+    width: 350px;
+    height: 150px;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#container2{
+    background: rgb(59, 167, 68);
+    width: 400px;
+    height: 250px;
+    
+}
+
+#box1{
+    background: rgb(167, 117, 59);
+    width: 400px;
+    height: 50px;
+}
+
+#box2, #box3    {
+    background: rgb(167, 59, 153);
+    width: 150px;
+    height: 50px;
+}
+
+#box4{
+    background:rgb(248, 163, 66);
+    width: 150px;
+    height: 140px;
+
+}
+
+#box5{
+    background:rgb(238, 181, 128);
+    width: 550px;
+    height: 140px;
+
+}
